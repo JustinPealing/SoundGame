@@ -36,3 +36,6 @@ while running:
 	if event.type == pygame.KEYDOWN:
 		r = random.randint(0, len(effects) - 1)
 		effects[r].play()
+	
+	screen.fill((255, 0, 0))
+	pygame.display.flip()
